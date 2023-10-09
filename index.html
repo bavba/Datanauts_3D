@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+ 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Datanauts_3d</title>
+    <script src="js/kp_forecats.js"></script>
+    <script src="js/calendar.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='calendar.css'>
+	<style>
+		body { margin: 0; overflow: hidden; background-color: #000; }
+		.tm  { position: absolute; top: 10px; right: 10px; }
+		.webgl-error { font: 15px/30px monospace; text-align: center; color: #fff; margin: 50px; }
+		.webgl-error a { color: #fff; }
+		.logo-img-nasa{
+			width: 120px;
+			height: 100px;
+		}
+		.logo-img-telefonica{
+			width: 150px;
+			height: 50px;
+		}
+		.img-wrapper{
+			display: inline-block;
+		}
+    </style>
+</head>
+<body>
+	<div class="logo-header">
+		<div class="img-wrapper"> 
+			<img src="images/NASA_logo_1-1958.png" class="logo-img-nasa">
+		</div>
+		<div class="img-wrapper"> 
+			<img src="images/fundacio_telefonica_3.png" class="logo-img-telefonica">
+		</div>
+	</div>
+	<div id="webgl"></div>
+	</a>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+	<script src="https://threejs.org/examples/js/loaders/OBJLoader.js"></script>
+	<script src="js/three.min.js"></script>
+	<script src="js/Detector.js"></script>		
+	<script src="js/TrackballControls.js"></script>		
+	<script src="js/earth.js"></script>      <div class="selector">
+            HELLO SPACE
+    </div>
+    <div class="container">
+        <div id="calendar"></div>
+    </div>
+    <div class="table-container">
+        <div id="kp-table"></div>
+    </div>
+</body>
+</html>
